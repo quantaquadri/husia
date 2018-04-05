@@ -1,0 +1,271 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #fff;
+}
+
+
+section {
+  padding: 100px 0;
+}
+
+.bg-dark {
+    /*background-color: #5f56e9!important;*/
+    background: linear-gradient(90deg, #5f56e9, #854cdf)
+}
+
+.bg-primary {
+    /* background-color: #007bff!important;
+    height: 600px; */
+    background-image: url(../img/welcome-bg.png);
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.textbg{
+  padding-top: 50px;
+}
+
+/* NAVBAR FONT  */
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 2.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.get-start-area .submit {
+  background-color: #fb397d;
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  border: none;
+  height: 50px;
+  min-width: 167px;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 24px 24px 24px 0px;
+  margin-left: 10px;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.special_description_content > h2 {
+    /*color: #5b32b4;*/
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+li{
+  margin: 10px 0;
+}
+
+/* Pricing Pane CSS */
+
+.pricing-plane-area {
+    background: #f5f9fc;
+}
+
+.section_padding_100_70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.section-heading {
+    margin-bottom: 60px;
+}
+
+.section-heading > h2 {
+  font-weight: 300;
+  /*color: #5b32b4;*/
+  color: #5f56e9;
+  font-size: 30px;
+  margin: 0;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.single-price-plan {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 30px 30px 30px 0;
+  margin-bottom: 30px;
+}
+
+.single-price-plan .package-plan {
+  padding: 40px 0;
+  border-radius: 30px 30px 0 0;
+}
+
+.single-price-plan .package-description > p:first-child {
+  border-top: 1px solid #ebebeb;
+}
+
+.single-price-plan .package-description > p {
+  margin-bottom: 0;
+  line-height: 1;
+  padding: 15px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.single-price-plan .plan-button > a {
+  background: #726a84;
+  padding: 10px 0;
+  border-bottom-right-radius: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.single-price-plan.active .package-plan, .single-price-plan.active .plan-button > a, .single-price-plan:hover .plan-button > a {
+  background-color: #5f56e9;
+}
+
+.single-price-plan.active .package-plan .ca-price > h4, .single-price-plan.active .package-plan .ca-price > span, .single-price-plan.active .package-plan > h5, .single-price-plan.active .plan-button > a {
+  color: #fff;
+}
+
+.single-price-plan .package-plan .ca-price h4 {
+  color: #fb397d;
+  font-size: 48px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.single-price-plan .package-plan .ca-price span {
+  font-size: 18px;
+  color: #fb397d;
+}
+
+.single-price-plan .package-plan > h5 {
+  color: #5f56e9;
+  font-size: 18px;
+}
+
+/* Contact Us */
+.section-heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.footer-text {
+  margin-bottom: 15px;
+}
+
+.footer-text > p {
+  margin-bottom: 50px;
+}
+
+.address-text > p, .phone-text > p, .email-text > p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.address-text > p > span, .phone-text > p > span, .email-text > p > span {
+  color: #5b32b4;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+#name {
+    font-size: 18px;
+    padding: 15px 15px;
+    /* border-radius: 25px 25px 25px 0; */
+}
+
+#email {
+  font-size: 18px;
+  padding: 15px 15px;
+  /* border-radius: 25px 25px 25px 0; */
+}
+
+.btn.submit-btn {
+  background: #fb397d;
+  height: 48px;
+  min-width: 185px;
+  color: #ffffff;
+  font-weight: 500;
+  /* border-radius: 22px 25px 22px 0; */
+}
+
+.servtex{
+  padding-bottom: 60px;
+  font-weight: 300;
+  color: #5f56e9;
+  font-size: 30px;
+  margin: 0;
+}
+
+
+/* SPECIAL */
+
+.banner-area {
+  background: url(../img/header-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    /*margin-right: auto;*/
+ }
+ 
+ .d-inline.mx-auto.center {
+  text-align: center!important;
+  display:block!important;
+}
+
+.centerb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
