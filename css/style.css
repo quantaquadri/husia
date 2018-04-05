@@ -252,12 +252,18 @@ li{
   align-items: center !important;
 }
 
-.center-block {
+.ikon-screen img{
     display: block;
     margin-left: auto;
-    /*margin-right: auto;*/
- }
- 
+}
+
+@media (max-width:640px){
+    .ikon-screen img:first-child{
+        display:none;
+    }
+}
+
+
  .d-inline.mx-auto.center {
   text-align: center!important;
   display:block!important;
